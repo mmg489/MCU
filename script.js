@@ -1,14 +1,12 @@
 
-    // JavaScript code to handle search functionality
+
+    document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('search-button').addEventListener('click', function() {
       var query = document.getElementById('search-input').value;
-      // Perform search or redirect to search results page
-      // You can customize this part according to your needs
-      if (query) {
-        // Example: Redirect to search results page with query parameter
-        window.location.href = 'search.php?query=' + encodeURIComponent(query);
-      }
+      console.log(query);
     });
+  });
 
-
-    // console.log('script is linked');
+  
+//gotta write a fetch request to get the searchQuery function up and running
+  searchQuery();
