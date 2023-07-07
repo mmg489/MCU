@@ -9,3 +9,6 @@
         window.location.href = 'search.php?query=' + encodeURIComponent(query);
       }
     });
+
+
+    // console.log('script is linked');
